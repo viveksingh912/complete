@@ -1,0 +1,29 @@
+/* navigation */
+
+/* home section */
+#home{
+   
+}
+/* services section */
+#services{
+    flex-direction: column;
+
+}
+#services {
+    flex-direction: column;
+}
+/* clients section */
+#clients{
+    flex-wrap: wrap;
+}
+#client-section{
+    height: auto;
+}
+#client-section::before{
+    height:auto;
+}
+/* contact us sectoi */
+#contact{
+    width: auto;
+}
+/* footer  */
