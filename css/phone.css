@@ -1,9 +1,17 @@
 /* navigation */
-
-/* home section */
-#home{
-   
+#navbar{
+    flex-direction: column;
+    height: auto;
 }
+#navbar ul li a{
+    padding: 2px 7px;
+}
+
+#logo img{
+    height: 55px;
+    margin: 5px 5px;
+}
+/* home section */
 /* services section */
 #services{
     flex-direction: column;
@@ -15,15 +23,18 @@
 /* clients section */
 #clients{
     flex-wrap: wrap;
+    height: auto;
 }
 #client-section{
     height: auto;
 }
-#client-section::before{
-    height:auto;
+#client-section img{
+    height: auto;
 }
-/* contact us sectoi */
+.client-items{
+    height: auto;
+    padding:  3px 1px;
+}
 #contact{
     width: auto;
 }
-/* footer  */
